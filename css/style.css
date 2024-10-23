@@ -1,0 +1,170 @@
+
+body {
+	padding-top: 80px;
+	overflow-y:scroll;
+	font-size:15px
+}
+
+
+.members_current{
+	width: 100%;
+}
+
+.jumbotron{text-align:justify;
+	padding-top:1em;
+	padding-bottom:1em;
+	margin:auto;
+	font-size:100%}
+
+.jumbotron2{text-align:justify;
+	padding-top:1em;
+	background-color: #ffcc3371;
+	padding-bottom:1em;
+	margin:auto;
+	font-size:110%}
+
+#logo{
+	width:200px;
+	height:60px;
+	margin:0px 0 2px 0}
+	
+.navbar-custom {
+	background-color: #212721;
+	color: #2a9131;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ffc72c;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffc72c;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ff9e1b;
+}
+
+.members_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	justify-content: space-evenly;
+	gap: 10px;
+  }
+
+.member_figure {
+	margin: 0;
+	min-width: 200px;
+	max-width: 200px;
+  }
+  
+.member_image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	height: 120px;
+	border-radius: 80%;
+}
+
+.member_image_caption {
+text-align: center;
+font-size: 100%;
+line-height: 150%;
+padding: 4px;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: 80px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* Main Level */
+ul{
+    padding: 5px;
+    list-style-type: square;
+	margin: 1.2px 0;
+	margin-top: 0px;
+	margin-left: 12px;
+}
+/* Second Level */
+ul ul{
+    list-style-type: circle;
+	margin: 0px 0;
+	margin-left:10px;
+}
+/* Third Level */
+ul ul ul{
+  list-style-type: disc;
+  margin-left:10px;
+}
+
+
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+
+
+div.authors a:link,
+div.authors a:visited{color:#777777}
+div.authors{font-size:100%;color:#777777}
+span.author{white-space:nowrap}
+div.publication{padding-top:0px;padding-bottom:20px}
+div.publication div.img{padding-right:0px;padding-top:5px}
+div.publication div.text{text-align:left;vertical-align:top;}
+span.venue,span.highlight,div.publication span.tag{padding-right:0px;font-size:100%}
+
+
+ul#datalist_alumni li:nth-child(n+30) {
+    display:none;
+}
+
+span#extension {
+    cursor: pointer;
+    color: gray;
+	font-size: 60%;
+	font-weight: 400;
+}
+
+span#publication {
+    cursor: pointer;
+    color: gray;
+	font-size: 60%;
+	font-weight: 400;
+}
+
+
+
+a.name {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+div.bottombar{
+	font-size:10px
+}
+
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
