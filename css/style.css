@@ -131,6 +131,12 @@ div.publication div.img{padding-right:0px;padding-top:5px}
 div.publication div.text{text-align:left;vertical-align:top;}
 span.venue,span.highlight,div.publication span.tag{padding-right:0px;font-size:100%}
 
+/* Change the color of all links (a tags) */
+
+
+
+
+
 
 ul#datalist_alumni li:nth-child(n+30) {
     display:none;
@@ -166,6 +172,52 @@ div.bottombar{
 footer {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+
+.publication-bar {
+    background-color: #881c1c;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px auto;  /* Center the bar */
+    width: fit-content;  /* Adjust width to fit the content */
+}
+
+.year-btn {
+    background-color: white;
+    border: 2px solid #881c1c;
+    color: #881c1c;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.year-btn:hover {
+    background-color: #881c1c;
+    color: white;
+    border-color: white;
+}
+
+.year-btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Align the publication list with the bar */
+.publication-list {
+    margin: 20px auto;    /* Center the publication list */
+    width: fit-content;   /* Adjust width to fit the content */
+}
+
+.publication-list ul {
+    padding-left: 20px;      /* Add some padding for the bullet points */
+    list-style-type: disc;   /* Use disc bullets */
+}
+
+.publication-list li {
+    margin-bottom: 15px;  /* Add some spacing between list items */
 }
 
 

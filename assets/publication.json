@@ -1,0 +1,411 @@
+[
+    {
+      "title": "MCQG-SRefine: Multiple Choice Question Generation and Evaluation with Iterative Self-Critique, Correction, and Comparison Feedback",
+      "author": "Zonghai Yao, Aditya Parashar, Huixue Zhou, Won Seok Jang, Feiyun Ouyang, Zhichao Yang, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2410.13191",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Evaluating Expert-Layperson Agreement in Identifying Jargon Terms in Electronic Health Record Notes: Observational Study",
+      "author": "John P Lalor, David A Levy, Harmon S Jordan, Wen Hu, Jenni Kim Smirnova, Hong Yu",
+      "venue": "Journal of Medical Internet Research",
+      "note": null,
+      "paper": "https://www.jmir.org/2024/1/e49704/",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Blocks Architecture (BloArk): Efficient, Cost-Effective, and Incremental Dataset Architecture for Wikipedia Revision History",
+      "author": "Lingxi Li, Zonghai Yao, Sunjae Kwon, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2410.04410",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "MedQA-CS: Benchmarking Large Language Models Clinical Skills Using an AI-SCE Framework",
+      "author": "Zonghai Yao, Zihao Zhang, Chaolong Tang, Xingyu Bian, Youxia Zhao, Zhichao Yang, Junda Wang, Huixue Zhou, Won Seok Jang, Feiyun Ouyang, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2410.01553",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Large Language Model-based Role-Playing for Personalized Medical Jargon Extraction Authors",
+      "author": "Jung Hoon Lim, Sunjae Kwon, Zonghai Yao, John P Lalor, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2408.05555",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "A Psychology-based Unified Dynamic Framework for Curriculum Learning",
+      "author": "Guangyu Meng, Qingkai Zeng, John P Lalor, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2408.05326",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Do Clinicians Know How to Prompt? The Need for Automatic Prompt Optimization Help in Clinical Note Generation",
+      "author": "Zonghai Yao, Ahmed Jaafar, Beining Wang, Zhichao Yang, Hong Yu",
+      "venue": "The 23rd Workshop on Biomedical NLP @ ACL",
+      "note": null,
+      "paper": "https://aclanthology.org/2024.bionlp-1.15/",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "ReadCtrl: Personalizing text generation with readability-controlled instruction learning",
+      "author": "Hieu Tran, Zonghai Yao, Lingxi Li, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2406.09205",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Synth-SBDH: A Synthetic Dataset of Social and Behavioral Determinants of Health for Clinical Text",
+      "author": "Avijit Mitra, Emily Druhl, Raelene Goodwin, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2406.06056",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "BioInstruct: instruction tuning of large language models for biomedical natural language processing",
+      "author": "Hieu Tran, Zhichao Yang, Zonghai Yao, Hong Yu",
+      "venue": "Journal of the American Medical Informatics Association (JAMIA)",
+      "note": null,
+      "paper": "https://academic.oup.com/jamia/article-abstract/31/9/1821/7687618",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "ODD: A Benchmark Dataset for the Natural Language Processing Based Opioid Related Aberrant Behavior Detection",
+      "author": "Sunjae Kwon, Xun Wang, Weisong Liu, Emily Druhl, Minhee Sung, Joel Reisman, Wenjun Li, Robert Kerns, William Becker, Hong Yu",
+      "venue": "NAACL",
+      "note": null,
+      "paper": "https://aclanthology.org/2024.naacl-long.244/",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "LlamaCare: An Instruction Fine-Tuned Large Language Model for Clinical NLP",
+      "author": "Rumeng Li, Xun Wang, Hong Yu",
+      "venue": "LREC-COLING",
+      "note": null,
+      "paper": "https://aclanthology.org/2024.lrec-main.930/",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "UMass-BioNLP at MEDIQA-M3G 2024: DermPrompt--A Systematic Exploration of Prompt Engineering with GPT-4V for Dermatological Diagnosis",
+      "author": "Parth Vashisht, Abhilasha Lodha, Mukta Maddipatla, Zonghai Yao, Avijit Mitra, Zhichao Yang, Junda Wang, Sunjae Kwon, Hong Yu",
+      "venue": "Clinical NLP Workshop @ NAACL",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2404.17749",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Exploring LLM Multi-Agents for ICD Coding",
+      "author": "Rumeng Li, Xun Wang, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2406.15363",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "ClinicalMamba: A Generative Clinical Language Model on Longitudinal Clinical Notes",
+      "author": "Zhichao Yang, Avijit Mitra, Sunjae Kwon, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2403.05795",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Mental-llm: Leveraging large language models for mental health prediction via online text data",
+      "author": "Xuhai Xu, Bingsheng Yao, Yuanzhe Dong, Saadia Gabriel, Hong Yu, James Hendler, Marzyeh Ghassemi, Anind K Dey, Dakuo Wang",
+      "venue": "ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+      "note": null,
+      "paper": "https://dl.acm.org/doi/abs/10.1145/3643540",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Jmlr: Joint medical llm and retrieval training for enhancing reasoning and professional question answering capability",
+      "author": "Junda Wang, Zhichao Yang, Zonghai Yao, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2402.17887",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "SYNFAC-EDIT: Synthetic Imitation Edit Feedback for Factual Alignment in Clinical Summarization",
+      "author": "Prakamya Mishra, Zonghai Yao, Parth Vashisht, Feiyun Ouyang, Beining Wang, Vidhi Dhaval Mody, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2402.13919",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "LocalTweets to LocalHealth: A Mental Health Surveillance Framework Based on Twitter Data",
+      "author": "Vijeta Deshpande, Minhwa Lee, Zonghai Yao, Zihao Zhang, Jason Brian Gibbons, Hong Yu",
+      "venue": "LREC-COLING",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2402.13452",
+      "year": 2024,
+      "show": true
+    }, 
+    {
+      "title": "LocalTweets to LocalHealth: A Mental Health Surveillance Framework Based on Twitter Data",
+      "author": "Vijeta Deshpande, Minhwa Lee, Zonghai Yao, Zihao Zhang, Jason Brian Gibbons, Hong Yu",
+      "venue": "LREC-COLING",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2402.13452",
+      "year": 2024,
+      "show": true
+    }, 
+    {
+      "title": "EHR Interaction Between Patients and AI: NoteAid EHR Interaction",
+      "author": "Xiaocheng Zhang, Zonghai Yao, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2312.17475",
+      "year": 2023,
+      "show": true
+    }, 
+    {
+      "title": "Readme: Bridging medical jargon and lay understanding for patient education through data-centric nlp",
+      "author": "Zonghai Yao, Nandyala Siddharth Kantu, Guanghao Wei, Hieu Tran, Zhangqi Duan, Sunjae Kwon, Zhichao Yang, Hong Yu",
+      "venue": "EMNLP Findings",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2312.15561",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Paniniqa: Enhancing patient education through interactive question answering",
+      "author": "Pengshan Cai, Zonghai Yao, Fei Liu, Dakuo Wang, Meghan Reilly, Huixue Zhou, Lingxi Li, Yi Cao, Alok Kapoor, Adarsha Bajracharya, Dan Berlowitz, Hong Yu",
+      "venue": "TACL",
+      "note": null,
+      "paper": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00616/118717",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Paniniqa: Enhancing patient education through interactive question answering",
+      "author": "Pengshan Cai, Zonghai Yao, Fei Liu, Dakuo Wang, Meghan Reilly, Huixue Zhou, Lingxi Li, Yi Cao, Alok Kapoor, Adarsha Bajracharya, Dan Berlowitz, Hong Yu",
+      "venue": "TACL",
+      "note": null,
+      "paper": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00616/118717",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Two directions for clinical data generation with large language models: data-to-label and label-to-data",
+      "author": "Rumeng Li, Xun Wang, Hong Yu",
+      "venue": "EMNLP",
+      "note": null,
+      "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10782150/",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "TransformEHR: transformer-based encoder-decoder generative model to enhance prediction of disease outcomes using electronic health records",
+      "author": "Zhichao Yang, Avijit Mitra, Weisong Liu, Dan Berlowitz, Hong Yu",
+      "venue": "Nature Communications",
+      "note": null,
+      "paper": "https://www.nature.com/articles/s41467-023-43715-z",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Do Physicians Know How to Prompt? The Need for Automatic Prompt Optimization Help in Clinical Note Generation",
+      "author": "Zonghai Yao, Ahmed Jaafar, Beining Wang, Yue Zhu, Zhichao Yang, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2311.09684",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Large Language Models are In-context Teachers for Knowledge Reasoning",
+      "author": "Jiachen Zhao, Zonghai Yao, Zhichao Yang, Hong Yu",
+      "venue": "EMNLP Findings",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2311.06985",
+      "year": 2024,
+      "show": true
+    },
+    {
+      "title": "Ehrtutor: Enhancing patient understanding of discharge instructions",
+      "author": "Zihao Zhang, Zonghai Yao, Huixue Zhou, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2310.19212",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Synthetic imitation edit feedback for factual alignment in clinical summarization",
+      "author": "Prakamya Mishra, Zonghai Yao, Shuwei Chen, Beining Wang, Rohan Mittal, Hong Yu",
+      "venue": "SyntheticData4ML Workshop @ NeurIPS",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2310.20033",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Performance of multimodal GPT-4V on USMLE with Image: potential for imaging diagnostic support with explanations",
+      "author": "Zhichao Yang, Zonghai Yao, Mahbuba Tasmin, Parth Vashisht, Won Seok Jang, Feiyun Ouyang, Beining Wang, Dan Berlowitz, Hong Yu",
+      "venue": "medRxiv",
+      "note": null,
+      "paper": "https://www.medrxiv.org/content/10.1101/2023.10.26.23297629v3",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "NoteChat: a dataset of synthetic doctor-patient conversations conditioned on clinical notes",
+      "author": "Junda Wang, Zonghai Yao, Zhichao Yang, Huixue Zhou, Rumeng Li, Xun Wang, Yucheng Xu, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2310.15959",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Automated identification of eviction status from electronic health record notes",
+      "author": "Zonghai Yao, Jack Tsai, Weisong Liu, David A Levy, Emily Druhl, Joel I Reisman, Hong Yu",
+      "venue": "Journal of the American Medical Informatics Association (JAMIA)",
+      "note": null,
+      "paper": "https://academic.oup.com/jamia/article/30/8/1429/7172838",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Leveraging large language models for mental health prediction via online text data",
+      "author": "Xuhai Xu, Bingshen Yao, Yuanzhe Dong, Hong Yu, James Hendler, Anind K Dey, Dakuo Wang",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2307.14385",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Intentional self-harm among US veterans with traumatic brain injury or posttraumatic stress disorder: retrospective cohort study from 2008 to 2017",
+      "author": "Bhanu Pratap Singh Rawat, Joel Reisman, Terri K Pogoda, Weisong Liu, Subendhu Rongali, Robert H Aseltine Jr, Kun Chen, Jack Tsai, Dan Berlowitz, Hong Yu, Kathleen F Carlson",
+      "venue": "JMIR Public Health and Surveillance",
+      "note": null,
+      "paper": "https://publichealth.jmir.org/2023/1/e42803",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Early Prediction of Alzheimers Disease Leveraging Symptom Occurrences from Longitudinal Electronic Health Records of US Military Veterans",
+      "author": "Rumeng Li, Xun Wang, Dan Berlowitz, Brian Silver, Wen Hu, Heather Keating, Raelene Goodwin, Weisong Liu, Honghuang Lin, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2307.12369",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Generating user-engaging news headlines",
+      "author": "Pengshan Cai, Kaiqiang Song, Sangwoo Cho, Hongwei Wang, Xiaoyang Wang, Hong Yu, Fei Liu, Dong Yu",
+      "venue": "ACL",
+      "note": null,
+      "paper": "https://aclanthology.org/2023.acl-long.183/",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "UMASS_BioNLP at MEDIQA-Chat 2023: Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?",
+      "author": "Junda Wang, Zonghai Yao, Avijit Mitra, Samuel Osebe, Zhichao Yang, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2306.16931",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Multi-Label few-shot ICD coding as autoregressive generation with prompt",
+      "author": "Zhichao Yang, Sunjae Kwon, Zonghai Yao, Hong Yu",
+      "venue": "AAAI",
+      "note": null,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/25668",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Vision meets definitions: unsupervised visual word sense disambiguation incorporating gloss information",
+      "author": "Sunjae Kwon, Rishabh Garodia, Minhwa Lee, Zhichao Yang, Hong Yu",
+      "venue": "ACL",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2305.01788",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Web Information Extraction for Social Good: Food Pantry Answering As an Example",
+      "author": "Huan-Yuan Chen, Hong Yu",
+      "venue": "ACM Web Conference",
+      "note": null,
+      "paper": "https://dl.acm.org/doi/abs/10.1145/3543507.3583880",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Intent-based Web Page Summarization with Structure-Aware Chunking and Generative Language Models",
+      "author": "Huan-Yuan Chen, Hong Yu",
+      "venue": "ACM Web Conference (Companion)",
+      "note": null,
+      "paper": "https://dl.acm.org/doi/abs/10.1145/3543873.3587372",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Evaluating the efficacy of NoteAid on EHR note comprehension among US Veterans through Amazon Mechanical Turk",
+      "author": "John P Lalor, Hao Wu, Kathleen M Mazor, Hong Yu",
+      "venue": "International journal of medical informatics",
+      "note": null,
+      "paper": "https://www.sciencedirect.com/science/article/abs/pii/S1386505623000230",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Associations between natural language processing-enriched social determinants of health and suicide death among US veterans",
+      "author": "Avijit Mitra, Richeek Pradhan, Rachel D Melamed, Kun Chen, David C Hoaglin, Katherine L Tucker, Joel I Reisman, Zhichao Yang, Weisong Liu, Jack Tsai, Hong Yu",
+      "venue": "JAMA Network open",
+      "note": null,
+      "paper": "https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2802468",
+      "year": 2023,
+      "show": true
+    },
+    {
+      "title": "Enhancing the prediction of disease outcomes using electronic health records and pretrained deep learning models",
+      "author": "Zhichao Yang, Weisong Liu, Dan Berlowitz, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2212.12067",
+      "year": 2022,
+      "show": true
+    }
+    
+
+
+
+]
