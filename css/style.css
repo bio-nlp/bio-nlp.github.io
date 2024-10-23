@@ -2,7 +2,9 @@
 body {
 	padding-top: 80px;
 	overflow-y:scroll;
-	font-size:15px
+	font-size:17px;
+	padding-bottom: 30px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 
@@ -29,18 +31,18 @@ body {
 	margin:0px 0 2px 0}
 	
 .navbar-custom {
-	background-color: #212721;
+	background-color: #881c1c;
 	color: #2a9131;
 }
 
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: #ffc72c;
+    color: #ffffff;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: #ffc72c;
+    color: #ffffff;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,

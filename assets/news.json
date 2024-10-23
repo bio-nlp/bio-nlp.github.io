@@ -1,14 +1,50 @@
 [
     {
         "date": "Oct 2024", 
-        "description": "Launching our new website! Please stay tuned for more updates from our group! We will migrate information from <a href='https://bio-nlp.org'>the old website. </a>"
+        "description": "Launching our new website! Please stay tuned for more updates from our group! We will migrate information from <a href='https://bio-nlp.org'>the old website </a>, including members, research projects, and publication, etc."
+    },
+    {
+        "date": "Oct 2024", 
+        "description": "One paper is accepted to <strong>JMIR</strong>!"
     },
     {
         "date": "Sep 2024", 
-        "description": ""
+        "description": "Three papers are accepted to <strong>EMNLP 2024!</strong>"
+    },
+    {
+        "date": "Sep 2024", 
+        "description": "Had so much fun in our 3-day group retreat to White Mountain in New Hampshire!"
+    },
+    {
+        "date": "Sep 2024", 
+        "description": "Our PhD student <strong>Zhichao Yang</strong> (UMass Amherst) succesfully defended his PhD thesis. Congratulation, Dr. Yang!"
+    },
+    {
+        "date": "Sep 2024", 
+        "description": "Our group is recruiting multiple UMass Amherst MS students for 696 Independent Study. Please check the link [<strong>CLOSED -- please check during January 2025 for the spring recruitment.</strong>]."
+    },
+    {
+        "date": "Aug 2024", 
+        "description": "Welcome our new PhD student in UMass Amherst, Mingchen Li!"
+    },
+    {
+        "date": "Aug 2024", 
+        "description": "Welcome our new student researchers, Jiatan Huang (Lowell) and Siva H (Amherst)!"
+    },
+    {
+        "date": "Jul 2024", 
+        "description": "Welcome back Minhwa Lee for joining our group as a research staff!"
+    },
+    {
+        "date": "Jun 2024", 
+        "description": "Our <a href='https://aclanthology.org/2024.naacl-long.244/'>ODD paper</a> is accepted to <strong>NAACL 2024</strong>!"
+    },
+    {
+        "date": "Jun 2024", 
+        "description": "Our <a href='https://academic.oup.com/jamia/article-abstract/31/9/1821/7687618'>BioInstruct paper</a> is accepted to <strong>JAMIA</strong>!"
     },
     {
         "date": "May 2024", 
-        "description": "dd"
-    }
+        "description": "Our <a href='https://aclanthology.org/2024.lrec-main.930/'>LLaMACare</a> and <a href='https://arxiv.org/abs/2402.13452'> LocalTweets </a> are accepted to <strong>LREC-COLING 2024</strong>!"
+    }  
 ]
