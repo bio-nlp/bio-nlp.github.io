@@ -135,9 +135,6 @@ span.venue,span.highlight,div.publication span.tag{padding-right:0px;font-size:1
 
 
 
-
-
-
 ul#datalist_alumni li:nth-child(n+30) {
     display:none;
 }
@@ -221,3 +218,8 @@ footer {
 }
 
 
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Ensures that the height adapts based on width, keeping the aspect ratio constant */
+    transition: none; /* Prevents size changes during transitions */
+}
