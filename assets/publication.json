@@ -55,6 +55,15 @@
       "show": true
     },
     {
+      "title": "RiTeK: A Dataset for Large Language Models Complex Reasoning over Textual Knowledge Graphs",
+      "author": "Jiatan Huang*, Mingchen Li*, Zonghai Yao, Zhichao Yang, Yongkang Xiao, Feiyun Ouyang, Xiaohan Li, Shuo Han, Hong Yu",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2410.13987",
+      "year": 2024,
+      "show": true
+    },
+    {
       "title": "MCQG-SRefine: Multiple Choice Question Generation and Evaluation with Iterative Self-Critique, Correction, and Comparison Feedback",
       "author": "Zonghai Yao*, Aditya Parashar*, Huixue Zhou, Won Seok Jang, Feiyun Ouyang, Zhichao Yang, Hong Yu",
       "venue": "Preprint",
