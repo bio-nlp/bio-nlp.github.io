@@ -1,15 +1,19 @@
 [
     {
         "date": "Oct 2024", 
+        "description": "One paper is accepted to <strong>Health Policy and Technology</strong>!"
+    },
+    {
+        "date": "Oct 2024", 
         "description": "Launching our new website! Please stay tuned for more updates from our group! We will migrate information from <a href='https://bio-nlp.org'>the old website </a>, including members, research projects, and publication, etc."
     },
     {
         "date": "Oct 2024", 
-        "description": "One paper is accepted to <strong>JMIR</strong>!"
+        "description": "Our <a href='https://www.jmir.org/2024/1/e49704/'>Expert-Layperson Agreement paper</a> is accepted to <strong>Journal of Medical Internet Research (JMIR)</strong>!"
     },
     {
         "date": "Sep 2024", 
-        "description": "Three papers are accepted to <strong>EMNLP 2024!</strong>"
+        "description": "Three papers <a href='https://arxiv.org/abs/2312.15561'>README</a> <a href='https://arxiv.org/abs/2402.13919'>SYNFAC-EDIT</a> <a href='https://arxiv.org/abs/2311.06985'>In-context-Teachers</a> are accepted to <strong>EMNLP 2024!</strong>"
     },
     {
         "date": "Sep 2024", 
@@ -32,12 +36,24 @@
         "description": "Welcome our new student researchers, Jiatan Huang (Lowell) and Siva H (Amherst)!"
     },
     {
+        "date": "Jun 2024", 
+        "description": "Our <a href='https://arxiv.org/abs/2310.15959'>NoteChat paper</a> is accepted to <strong>ACL Findings 2024</strong>!"
+    },
+    {
+        "date": "Jun 2024", 
+        "description": "Our <a href='https://aclanthology.org/2024.bionlp-1.15/'>Automatic Prompt Optimization for Note Generation</a> is accepted to <strong>BioNLP 2024</strong>!"
+    },
+    {
         "date": "Jul 2024", 
         "description": "Welcome back Minhwa Lee for joining our group as a research staff!"
     },
     {
         "date": "Jun 2024", 
         "description": "Our <a href='https://aclanthology.org/2024.naacl-long.244/'>ODD paper</a> is accepted to <strong>NAACL 2024</strong>!"
+    },
+    {
+        "date": "Jun 2024", 
+        "description": "Our <a href='https://aclanthology.org/2024.clinicalnlp-1.5.pdf'>Clinicalmamba</a> and <a href='https://aclanthology.org/2024.clinicalnlp-1.50/'>DermPrompt</a> are accepted to <strong>Clinical NLP 2024</strong>!"
     },
     {
         "date": "Jun 2024", 
