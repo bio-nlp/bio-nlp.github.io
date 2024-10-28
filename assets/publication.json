@@ -39,7 +39,7 @@
     {
       "title": "Blocks Architecture (BloArk): Efficient, Cost-Effective, and Incremental Dataset Architecture for Wikipedia Revision History",
       "author": "Lingxi Li, Zonghai Yao, Sunjae Kwon, Hong Yu",
-      "venue": "NLP for Wikipedia @ EMNLP 2024",
+      "venue": "NLP for Wikipedia @ EMNLP",
       "note": null,
       "paper": "https://arxiv.org/abs/2410.04410",
       "year": 2024,
