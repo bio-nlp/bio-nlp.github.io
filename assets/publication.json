@@ -1,4 +1,13 @@
 [
+    {
+      "title": "SemiHVision: Enhancing Medical Multimodal Models with a Semi-Human Annotated Dataset and Fine-Tuned Instruction Generation",
+      "author": "Junda Wang, Yujan Ting, Eric Z. Chen, Hieu Tran, Hong Yu, Weijing Huang, Terrence Chen",
+      "venue": "Preprint",
+      "note": null,
+      "paper": "https://arxiv.org/abs/2410.14948",
+      "year": 2024,
+      "show": true
+    },
     
     {
       "title": "Evaluating Expert-Layperson Agreement in Identifying Jargon Terms in Electronic Health Record Notes: Observational Study",
