@@ -30,7 +30,7 @@ body {
 	margin:0px 0 2px 0}
 	
 .navbar-custom {
-	background-color: #881c1c;
+	background-color: #702963;
 	color: #2a9131;
 }
 
@@ -208,7 +208,7 @@ footer {
 
 
 .publication-bar {
-    background-color: #881c1c;
+    background-color: #702963;
     padding: 15px;
     border-radius: 8px;
     margin: 20px auto;  /* Center the bar */
@@ -217,8 +217,8 @@ footer {
 
 .year-btn {
     background-color: white;
-    border: 2px solid #881c1c;
-    color: #881c1c;
+    border: 2px solid #702963;
+    color: #702963;
     font-weight: bold;
     margin: 5px;
     border-radius: 4px;
@@ -227,7 +227,7 @@ footer {
 }
 
 .year-btn:hover {
-    background-color: #881c1c;
+    background-color: #702963;
     color: white;
     border-color: white;
 }
