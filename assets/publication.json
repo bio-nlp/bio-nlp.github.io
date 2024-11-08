@@ -1,5 +1,14 @@
 [
     {
+      "title": "Individual Factors That Affect Laypeople's Understanding of Definitions of Medical Jargon",
+      "author": "David A. Levy, Harmon S. Jordan, John P. Lalor, Jenni Kim Smirnova, Wen Hu, Weisong Liu, Hong Yu", 
+      "venue": "Health Policy and Technology",
+      "note": null,
+      "paper": "https://www.sciencedirect.com/science/article/abs/pii/S2211883724000959",
+      "year": 2024,
+      "show": true
+    },
+    {
       "title": "SemiHVision: Enhancing Medical Multimodal Models with a Semi-Human Annotated Dataset and Fine-Tuned Instruction Generation",
       "author": "Junda Wang, Yujan Ting, Eric Z. Chen, Hieu Tran, Hong Yu, Weijing Huang, Terrence Chen",
       "venue": "Preprint",
