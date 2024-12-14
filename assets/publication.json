@@ -1,5 +1,14 @@
 [
     {
+      "title": "Beyond GPT-4V's High Accuracy on USMLE Questions: Observational Study Exposing Hidden Flaws in Clinical Image Interpretation",
+      "author": "Zhichao Yang*, Zonghai Yao*, Mahbuba Tasmin, Parth Vashisht, Won Seok Jang, Feiyun Ouyang, Beining Wang, Dan Berlowitz, Hong Yu", 
+      "venue": "Journal of Medical Internet Research (JMIR)",
+      "note": null,
+      "paper": "https://www.medrxiv.org/content/10.1101/2023.10.26.23297629v3",
+      "year": 2024,
+      "show": true
+    },
+    {
       "title": "Individual Factors That Affect Laypeople's Understanding of Definitions of Medical Jargon",
       "author": "David A. Levy, Harmon S. Jordan, John P. Lalor, Jenni Kim Smirnova, Wen Hu, Weisong Liu, Hong Yu", 
       "venue": "Health Policy and Technology",
@@ -269,16 +278,7 @@
       "paper": "https://arxiv.org/abs/2310.20033",
       "year": 2023,
       "show": true
-    },
-    {
-      "title": "Performance of multimodal GPT-4V on USMLE with Image: potential for imaging diagnostic support with explanations",
-      "author": "Zhichao Yang*, Zonghai Yao*, Mahbuba Tasmin, Parth Vashisht, Won Seok Jang, Feiyun Ouyang, Beining Wang, Dan Berlowitz, Hong Yu",
-      "venue": "medRxiv",
-      "note": null,
-      "paper": "https://www.medrxiv.org/content/10.1101/2023.10.26.23297629v3",
-      "year": 2023,
-      "show": true
-    },
+    }, 
     {
       "title": "Automated identification of eviction status from electronic health record notes",
       "author": "Zonghai Yao, Jack Tsai, Weisong Liu, David A Levy, Emily Druhl, Joel I Reisman, Hong Yu",
