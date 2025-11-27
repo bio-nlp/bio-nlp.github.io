@@ -79,6 +79,7 @@
     <div class="container">
         <!-- Publication Filter Bar -->
         <div class="row text-center publication-bar">
+            <button class="btn year-btn" onclick="filterByYear(2025)">2025</button>
             <button class="btn year-btn" onclick="filterByYear(2024)">2024</button>
             <button class="btn year-btn" onclick="filterByYear(2023)">2023</button>
             <button class="btn year-btn" onclick="filterByYear(2022)">2022</button>
@@ -104,8 +105,8 @@
 				<p class="alignleft">
 					<a href="https://cics.umass.edu">UMass Amherst CICS</a>, <a href="https://www.uml.edu/sciences/computer-science/">UMass Lowell CS</a>
 				</p>
-				<p class="alignright" >
-					Last updated in October 2024
+				<p class="alignright" id="lastUpdated"></p>
+
 				</p>		
 			</div>
 			<br>
@@ -115,5 +116,15 @@
 
 </div> <!-- /container -->
 <!-- <script type="text/javascript" src="js/all_loader.js"></script> -->
+ <script>
+  // Auto-generate "Last updated in Month YYYY"
+  const monthNames = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+  const now = new Date();
+  const updatedText = `Last updated in ${monthNames[now.getMonth()]} ${now.getFullYear()}`;
+  document.getElementById("lastUpdated").textContent = updatedText;
+</script>
 </body>
 </html>

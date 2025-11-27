@@ -1,70 +1,38 @@
 [
-    {
-        "date": "Dec 2024", 
-        "description": "Our <a href='https://www.medrxiv.org/content/10.1101/2023.10.26.23297629v3'>Beyond GPT-4V's High Accuracy on USMLE Questions: Observational Study Exposing Hidden Flaws in Clinical Image Interpretation</a> is accepted to <strong>Journal of Medical Internet Research (JMIR)</strong>!"
-    },
-    {
-        "date": "Oct 2024", 
-        "description": "Our <a href='https://www.sciencedirect.com/science/article/abs/pii/S2211883724000959'>Individual factors that affect laypeople's understanding of definitions of medical jargon</a> is accepted to <strong>Health Policy and Technology</strong>!"
-    },
-    {
-        "date": "Oct 2024", 
-        "description": "Launching our new website! Please stay tuned for more updates from our group! We will migrate information from <a href='https://bio-nlp.org'>the old website </a>, including members, research projects, and publication, etc."
-    },
-    {
-        "date": "Oct 2024", 
-        "description": "Our <a href='https://www.jmir.org/2024/1/e49704/'>Expert-Layperson Agreement paper</a> is accepted to <strong>Journal of Medical Internet Research (JMIR)</strong>!"
-    },
-    {
-        "date": "Sep 2024", 
-        "description": "Three papers <a href='https://arxiv.org/abs/2312.15561'>README</a>, <a href='https://arxiv.org/abs/2402.13919'>SYNFAC-EDIT</a>, <a href='https://arxiv.org/abs/2311.06985'>In-context-Teachers</a> are accepted to <strong>EMNLP 2024!</strong>"
-    },
-    {
-        "date": "Sep 2024", 
-        "description": "Had so much fun in our 3-day group retreat to White Mountain in New Hampshire!"
-    },
-    {
-        "date": "Sep 2024", 
-        "description": "Our PhD student <strong>Zhichao Yang</strong> (UMass Amherst) succesfully defended his PhD thesis. Congratulation, Dr. Yang!"
-    },
-    {
-        "date": "Sep 2024", 
-        "description": "Our group is recruiting multiple UMass Amherst MS students for 696 Independent Study. Please check the link [<strong>CLOSED -- please check during January 2025 for the spring recruitment.</strong>]."
-    },
-    {
-        "date": "Aug 2024", 
-        "description": "Welcome our new PhD student in UMass Amherst, Mingchen Li!"
-    },
-    {
-        "date": "Aug 2024", 
-        "description": "Welcome our new student researchers, Jiatan Huang (Lowell) and Siva H (Amherst)!"
-    },
-    {
-        "date": "Jun 2024", 
-        "description": "Our <a href='https://arxiv.org/abs/2310.15959'>NoteChat paper</a> is accepted to <strong>ACL Findings 2024</strong>!"
-    },
-    {
-        "date": "Jun 2024", 
-        "description": "Our <a href='https://aclanthology.org/2024.bionlp-1.15/'>Automatic Prompt Optimization for Note Generation</a> is accepted to <strong>BioNLP 2024</strong>!"
-    },
-    {
-        "date": "Jul 2024", 
-        "description": "Welcome back Minhwa Lee for joining our group as a research staff!"
-    },
-    {
-        "date": "Jun 2024", 
-        "description": "Our <a href='https://aclanthology.org/2024.naacl-long.244/'>ODD paper</a> is accepted to <strong>NAACL 2024</strong>!"
-    },
-    {
-        "date": "Jun 2024", 
-        "description": "Our <a href='https://aclanthology.org/2024.clinicalnlp-1.5.pdf'>Clinicalmamba</a> and <a href='https://aclanthology.org/2024.clinicalnlp-1.50/'>DermPrompt</a> are accepted to <strong>Clinical NLP 2024</strong>!"
-    },
-    {
-        "date": "Jun 2024", 
-        "description": "Our <a href='https://academic.oup.com/jamia/article-abstract/31/9/1821/7687618'>BioInstruct paper</a> is accepted to <strong>JAMIA</strong>!"
-    },
-    {
-        "date": "May 2024", 
-        "description": "Our <a href='https://aclanthology.org/2024.lrec-main.930/'>LLaMACare</a> and <a href='https://arxiv.org/abs/2402.13452'> LocalTweets </a> are accepted to <strong>LREC-COLING 2024</strong>!"
-    }  
+  {
+    "date": "Jul 2025",
+    "content": "🧠 New work <b>NoteAid-Chatbot: Chatbot to Help Patients Understand Their Health published in EMNLP Findings 2025.</b> <a href='https://arxiv.org/abs/2509.05818' target='_blank'>arXiv</a>."
+  },
+  {
+    "date": "Jun 2025",
+    "content": "🌐 Our model <b>MedCOD</b> for English–Spanish medical translation is now live on <a href='https://aclanthology.org/2025.findings-emnlp.350.pdf' target='_blank'>EMNLP Findings paper</a>."
+  },
+  {
+    "date": "May 2025",
+    "content": "💡 Our study <b>ChatCLIDS</b> introduces persuasive AI dialogues for diabetes care — available at <a href='https://arxiv.org/abs/2509.00891' target='_blank'>arXiv</a>."
+  },
+  {
+    "date": "Apr 2025",
+    "content": "📄 Paper <b>ChatHero: An LLM-Supported Chatbot for Behavior Change and Addiction Recovery</b> released — a milestone for AI-based therapeutic support!"
+  },
+  {
+    "date": "Mar 2025",
+    "content": "🩺 New model <b>A New NMT for Translating Clinical Texts from English to Spanish</b> published on <a href='https://arxiv.org/abs/2508.18607' target='_blank'>arXiv</a>."
+  },
+  {
+    "date": "Feb 2025",
+    "content": "📊 Publication <b>Enhancing LLMs for Identifying and Prioritizing Medical Jargon from EHR Notes</b> explores data augmentation for better comprehension."
+  },
+  {
+    "date": "Feb 2025",
+    "content": "🏠 New study <b>SynthEHR-Eviction</b> enhances eviction SDoH detection using LLM-augmented synthetic EHR data."
+  },
+  {
+    "date": "Sep 2025",
+    "content": "🎉 <b>Alice</b> paper accepted at <b>Nature Communications Medicine</b> — a major success for our lab!"
+  },
+  {
+    "date": "Aug 2025",
+    "content": "🎓 Avijit Mitra successfully defended his Ph.D. thesis on August 31, 2025 — congratulations Dr. Mitra 🎉"
+  }
 ]
