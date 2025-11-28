@@ -1,38 +1,50 @@
 [
   {
-    "date": "Jul 2025",
-    "content": "🧠 New work <b>NoteAid-Chatbot: Chatbot to Help Patients Understand Their Health published in EMNLP Findings 2025.</b> <a href='https://arxiv.org/abs/2509.05818' target='_blank'>arXiv</a>."
-  },
-  {
-    "date": "Jun 2025",
-    "content": "🌐 Our model <b>MedCOD</b> for English–Spanish medical translation is now live on <a href='https://aclanthology.org/2025.findings-emnlp.350.pdf' target='_blank'>EMNLP Findings paper</a>."
+    "date": "Nov 2025",
+    "content": "🎉 <b>Zhichao</b> paper accepted at <b>Scientific Reports</b> — Congratulations!"
   },
   {
     "date": "May 2025",
-    "content": "💡 Our study <b>ChatCLIDS</b> introduces persuasive AI dialogues for diabetes care — available at <a href='https://arxiv.org/abs/2509.00891' target='_blank'>arXiv</a>."
+    "content": "🎉 One paper accepted at <b>Computational Linguistics</b> — Congratulations!"
   },
   {
-    "date": "Apr 2025",
-    "content": "📄 Paper <b>ChatHero: An LLM-Supported Chatbot for Behavior Change and Addiction Recovery</b> released — a milestone for AI-based therapeutic support!"
-  },
-  {
-    "date": "Mar 2025",
-    "content": "🩺 New model <b>A New NMT for Translating Clinical Texts from English to Spanish</b> published on <a href='https://arxiv.org/abs/2508.18607' target='_blank'>arXiv</a>."
-  },
-  {
-    "date": "Feb 2025",
-    "content": "📊 Publication <b>Enhancing LLMs for Identifying and Prioritizing Medical Jargon from EHR Notes</b> explores data augmentation for better comprehension."
-  },
-  {
-    "date": "Feb 2025",
-    "content": "🏠 New study <b>SynthEHR-Eviction</b> enhances eviction SDoH detection using LLM-augmented synthetic EHR data."
+    "date": "Nov 2025",
+    "content": "📚 Two papers (PRIME and ChatCLIDS) were accepted to <b>AAAI 2026</b>, including one in the  <b>Main Technical Track</b> and one in the <b>AI for Social Impact Track</b>."
   },
   {
     "date": "Sep 2025",
-    "content": "🎉 <b>Alice</b> paper accepted at <b>Nature Communications Medicine</b> — a major success for our lab!"
+    "content": "🎉 <b>Alice</b> TWO paper accepted at <b>npj Digital Medicine<b> and <b>Nature Communications Medicine</b> — Congratulations!"
+  },
+  {
+    "date": "Sep 2025",
+    "content": "📚 Five of our papers were accepted to <b>EMNLP 2025</b>, and one paper was accepted to <b>CIKM 2025</b>!!!"
   },
   {
     "date": "Aug 2025",
-    "content": "🎓 Avijit Mitra successfully defended his Ph.D. thesis on August 31, 2025 — congratulations Dr. Mitra 🎉"
+    "content": "🎓 <b>Avijit Mitra</b> successfully defended his Ph.D. thesis on August 31, 2025 and then joined <b>Amazon</b> — congratulations Dr. Mitra 🎉"
+  },
+  {
+    "date": "June 2025",
+    "content": "🎉 One paper accepted at <b>Journal of Community Health</b> — Congratulations!"
+  },
+  {
+    "date": "May 2025",
+    "content": "✍️ One paper (RARE) was accepted to <b>ACL 2025</b>."
+  },
+  {
+    "date": "Feb 2025",
+    "content": "🎉 <b>Zhichao</b> and <b>Zonghai</b> paper accepted at <b>Journal of Medical Internet Research</b> — Congratulations!"
+  },
+  {
+    "date": "Feb 2025",
+    "content": "🎉 <b>Avijit</b> paper accepted at <b>npj Mental Health Research</b> — Congratulations!"
+  },
+  {
+    "date": "Jan 2025",
+    "content": "✍️ One paper (MCQG-SRefine) was oral presended to <b>NAACL 2025</b>."
+  },
+  {
+    "date": "Sep 2024",
+    "content": "🎓 <b>Zhichao Yang</b> received his Ph.D. degree at the end of September 2024 and started a new position at <b>Optum AI (UnitedHealth)</b>.— congratulations Dr. Yang 🎉"
   }
 ]
