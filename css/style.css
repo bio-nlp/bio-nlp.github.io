@@ -259,4 +259,75 @@ footer {
     transition: none; /* Prevents size changes during transitions */
 }
 
+/* New student cards on the People page. */
+.new-student-card {
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+}
 
+.new-student-card .new-student-photo,
+.new-student-card .new-student-initials {
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 1 / 1;
+    border-radius: 20%;
+    margin: 0 auto 12px;
+}
+
+.new-student-card .new-student-photo {
+    object-fit: cover;
+}
+
+.new-student-card .new-student-initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0eaf2;
+    color: #702963;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.new-student-card p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.new-student-card .new-student-links {
+    font-size: 0.9rem;
+}
+
+/* Publication filters: September 2026 update */
+#publication-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#publication-filters .year-btn[aria-pressed="true"] {
+    background-color: #702963;
+    color: #fff;
+    border-color: #fff;
+}
+
+#publication-filters .year-btn:focus-visible {
+    outline: 3px solid #f4ce77;
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+#publication-status {
+    text-align: center;
+    color: #555;
+    margin: 0 0 1rem;
+}
+
+#publication {
+    width: 100%;
+    overflow-wrap: anywhere;
+}
