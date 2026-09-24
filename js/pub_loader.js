@@ -1,96 +1,109 @@
-function render_pub(elements, filter = null) {
-    console.log("Rendering publications for year:", filter);
-    var decodedText = '';
-    var counter = 0;
+"use strict";
 
-    // Clear previous content
-    $('#publication').empty();
+document.addEventListener("DOMContentLoaded", async () => {
+    const list = document.getElementById("publication");
+    const filters = document.getElementById("publication-filters");
+    const status = document.getElementById("publication-status");
+    if (!list || !filters || !status) return;
 
-    $.each(elements, function (index, value) {
-        if (!value.year) return;
-
-        // Convert both to string to avoid mismatch
-        var pubYear = String(value.year);
-        var filterYear = String(filter);
-
-        if (filter != null && pubYear !== filterYear) {
-            return; // Skip publications not matching year
-        }
-
-        counter += 1;
-
-        var venue_text = value.venue ?
-            `<span class="venue"><strong>${value.venue} ${value.year}</strong>` : '';
-
-        if (value.note) {
-            venue_text += ` (<span class="highlight" style="color:red">${value.note}</span>)`;
-        }
-        venue_text += '</span>';
-
-        var paper_text = value.paper ?
-            `<span class="tag"> <a href="${value.paper}" target="_blank">Paper</a></span>` : '';
-
-        var decodedVar = `<li>
-            <div class="publication">
-                <div class="text">
-                    <div class="title"><a href="${value.paper}" target="_blank">${value.title}</a></div>
-                    <div class="authors">${value.author}</div>
-                    <div>${venue_text} ${paper_text}</div>
-                </div>
-            </div>
-        </li>`;
-
-        decodedText += decodedVar;
-    });
-
-    if (counter > 0) {
-        decodedText = '<ul>' + decodedText + '</ul>';
-    } else {
-        decodedText = '<p>No publications found for this year.</p>';
+    function element(tag, className, text) {
+        const node = document.createElement(tag);
+        if (className) node.className = className;
+        if (text != null) node.textContent = text;
+        return node;
     }
 
-    $('#publication').append(decodedText);
-    console.log("Rendered", counter, "publications.");
-}
-
-
-// ======================================================
-// Load JSON and show selected year
-// ======================================================
-function filterByYear(year) {
-    // Try both possible paths (works both locally and on GitHub Pages)
-    var possiblePaths = ['../assets/publication.json', './assets/publication.json'];
-    var tried = 0;
-
-    function tryNextPath() {
-        if (tried >= possiblePaths.length) {
-            $('#publication').html("<p style='color:red;'>Error loading publications file.</p>");
-            return;
+    function paperURL(value) {
+        if (typeof value !== "string" || !value.trim()) return null;
+        try {
+            const url = new URL(value);
+            return ["https:", "http:"].includes(url.protocol) ? url.href : null;
+        } catch {
+            return null;
         }
+    }
 
-        var json_pub_url = possiblePaths[tried];
-        console.log("Trying to load:", json_pub_url);
+    function paperLink(text, href) {
+        const link = element("a", null, text);
+        link.href = href;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        return link;
+    }
 
-        $.getJSON(json_pub_url + '?v=' + new Date().getTime())
-            .done(function (result) {
-                console.log("✅ JSON loaded successfully from:", json_pub_url);
-                render_pub(result, year);
-            })
-            .fail(function (jqxhr, textStatus, error) {
-                console.warn("❌ Failed to load from:", json_pub_url, "—", textStatus);
-                tried++;
-                tryNextPath(); // Try the next path
+    try {
+        const response = await fetch(new URL("../assets/publication.json", document.baseURI), {
+            cache: "no-cache"
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        if (!Array.isArray(data)) throw new Error("Invalid publication data");
+
+        const publications = data.filter((item) =>
+            item && item.show !== false && item.show !== "false" &&
+            Number.isInteger(Number(item.year)) && Number(item.year) >= 1900 &&
+            typeof item.title === "string" && item.title.trim()
+        ).sort((a, b) => Number(b.year) - Number(a.year));
+        const years = [...new Set(publications.map((item) => Number(item.year)))];
+
+        function render(year) {
+            const selected = publications.filter((item) => year === null || Number(item.year) === year);
+            list.replaceChildren();
+            filters.querySelectorAll("button").forEach((button) => {
+                button.setAttribute("aria-pressed", String(button.dataset.year === String(year)));
             });
+            const count = selected.length;
+            status.textContent = `${count} publication${count === 1 ? "" : "s"}${year === null ? " across all years" : ` in ${year}`}`;
+            if (!count) {
+                list.append(element("p", null, "No publications available."));
+                return;
+            }
+
+            const ul = element("ul");
+            selected.forEach((item) => {
+                const li = element("li");
+                const publication = element("div", "publication");
+                const content = element("div", "text");
+                const title = element("div", "title");
+                const href = paperURL(item.paper);
+                title.append(href ? paperLink(item.title, href) : document.createTextNode(item.title));
+                content.append(title, element("div", "authors", item.author || ""));
+
+                const metadata = element("div");
+                const venue = element("span", "venue");
+                const venueName = item.venue || "";
+                const venueText = venueName.includes(String(item.year))
+                    ? venueName
+                    : [venueName, item.year].filter(Boolean).join(" · ");
+                venue.append(element("strong", null, venueText));
+                if (item.note) venue.append(document.createTextNode(` (${item.note})`));
+                metadata.append(venue);
+                if (href) {
+                    const tag = element("span", "tag");
+                    tag.append(document.createTextNode(" "), paperLink("Paper", href));
+                    metadata.append(tag);
+                }
+                content.append(metadata);
+                publication.append(content);
+                li.append(publication);
+                ul.append(li);
+            });
+            list.append(ul);
+        }
+
+        filters.replaceChildren();
+        [null, ...years].forEach((year) => {
+            const button = element("button", "btn year-btn", year === null ? "All" : String(year));
+            button.type = "button";
+            button.dataset.year = String(year);
+            button.addEventListener("click", () => render(year));
+            filters.append(button);
+        });
+        render(years[0] ?? null);
+    } catch (error) {
+        filters.replaceChildren();
+        list.replaceChildren();
+        status.textContent = "Publications could not be loaded. Please reload this page.";
+        console.error("Unable to load publications:", error);
     }
-
-    tryNextPath();
-}
-
-
-// ======================================================
-// Default load — latest year (2025)
-// ======================================================
-$(document).ready(function () {
-    console.log("📖 Page ready — loading 2025 publications");
-    filterByYear(2025);
 });

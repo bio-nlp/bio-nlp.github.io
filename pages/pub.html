@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title>UMass BioNLP - Publication</title>
+        <title>UMass BioNLP - Publications</title>
         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
         <meta name="keywords" content="NLP,BioNLP,UMass">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
@@ -56,7 +56,7 @@
                         <a class="nav-link" href="../pages/research.html">Research</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/pub.html">Publication</a>
+                        <a class="nav-link" href="../pages/pub.html">Publications</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/join.html">Join Us</a>
@@ -68,26 +68,18 @@
     
     <br>
     <div>
-        <h2 style="text-align: center;">Publication (2021-)</h2>
-        <div class="col-lg-12" >
-            <br> The UMass BioNLP group has published novel and impactful research in top-tier conferences and journals in natural language processing and biomedical informatics for several years. 
-            This database showcases the group's publications from the past five years. 
-            For publications prior to 2021, please refer to Dr. Hong Yu's <a href='https://scholar.google.com/citations?user=TyXe64wAAAAJ&hl=en'>google scholar page</a>. 
+       <h2 style="text-align: center;">Publications</h2>
+        <div class="col-lg-12">
+            <p>Publications by the UMass BioNLP Lab since 2021. For earlier work, see
+                <a href="https://scholar.google.com/citations?user=TyXe64wAAAAJ&amp;hl=en">Hong Yu's Google Scholar profile</a>.
+            </p>
         </div>
     </div>
 
     <div class="container">
         <!-- Publication Filter Bar -->
-        <div class="row text-center publication-bar">
-            <button class="btn year-btn" onclick="filterByYear(2025)">2025</button>
-            <button class="btn year-btn" onclick="filterByYear(2024)">2024</button>
-            <button class="btn year-btn" onclick="filterByYear(2023)">2023</button>
-            <button class="btn year-btn" onclick="filterByYear(2022)">2022</button>
-            <button class="btn year-btn" onclick="filterByYear(2021)">2021</button>
-            <!-- <button class="btn year-btn" onclick="filterByYear(2020)">2020</button> -->
-            <!-- <button class="btn year-btn" onclick="filterByYear(2019)">2019</button> -->
-            <!-- <button class="btn year-btn" onclick="filterByYear(2018)">Before 2019</button> -->
-        </div>
+        <div id="publication-filters" class="publication-bar" role="group" aria-label="Filter publications by year"></div>
+        <p id="publication-status" role="status" aria-live="polite">Loading publications...</p>
     
         <!-- Publication List -->
         <div class="row publication-list">
@@ -105,9 +97,7 @@
 				<p class="alignleft">
 					<a href="https://cics.umass.edu">UMass Amherst CICS</a>, <a href="https://www.uml.edu/sciences/computer-science/">UMass Lowell CS</a>
 				</p>
-				<p class="alignright" id="lastUpdated"></p>
-
-				</p>		
+				<p class="alignright" id="lastUpdated">Last updated: September 24, 2026</p>		
 			</div>
 			<br>
 		</div>
@@ -116,15 +106,5 @@
 
 </div> <!-- /container -->
 <!-- <script type="text/javascript" src="js/all_loader.js"></script> -->
- <script>
-  // Auto-generate "Last updated in Month YYYY"
-  const monthNames = [
-    "January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"
-  ];
-  const now = new Date();
-  const updatedText = `Last updated in ${monthNames[now.getMonth()]} ${now.getFullYear()}`;
-  document.getElementById("lastUpdated").textContent = updatedText;
-</script>
 </body>
 </html>
